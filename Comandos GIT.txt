@@ -4,9 +4,23 @@ git log
 - Exibe historico do repositório
 git log --oneline
 - Exibe histórico resumido.
+git log --since=1.month.ago --until=1.day.ago
+- Data dos commits
+git log --pretty="format:%h %s"
+- Ajusta visualização e formato de horas e etc dos commits
+git log --author="user_name"
+- Exibe commit desse usuário
+git log -p
+- Commit com detalhes
 git push 
 - Enviar todos os commits para o repositório
 git pull
 - baixa as atualizações do repositório git para sua máquina local
 git commit -m "mensagem qualquer sobre o log"
+-GIT COMMIT precisa especificar o arquivo necessário.   
 - commitar código para repositório.
+git diff x y 
+- Visualizar a diferença entre commit (precisa adicionar as hashs dos commits)
+git restore --source HASH FILE
+- Restaura uma determinada versão deve especificar a hash e o arquivo (. se quiser tudo)
+
