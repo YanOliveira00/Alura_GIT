@@ -1,0 +1,12 @@
+git clone URL HTTPS
+- Faz uma cópia para o repositório local, é feito mais no começo do projeto
+git log
+- Exibe historico do repositório
+git log --oneline
+- Exibe histórico resumido.
+git push
+- trás
+git pull
+- baixa as atualizações do repositório git para sua máquina local
+git commit
+- commitar código para repositório.
