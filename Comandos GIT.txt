@@ -4,9 +4,9 @@ git log
 - Exibe historico do repositório
 git log --oneline
 - Exibe histórico resumido.
-git push
-- trás
+git push 
+- Enviar todos os commits para o repositório
 git pull
 - baixa as atualizações do repositório git para sua máquina local
-git commit
+git commit -m "mensagem qualquer sobre o log"
 - commitar código para repositório.
